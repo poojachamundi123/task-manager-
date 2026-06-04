@@ -19,11 +19,13 @@ SQLite
 --> Project Structure
 
 - task_manager/
+  
 settings.py
 urls.py
 wsgi.py
 
 - task/
+  
 models.py
 views.py
 forms.py
@@ -31,6 +33,7 @@ urls.py
 admin.py
 
 - templates/
+  
 dashboard.html
 task_form.html
 trash.html
