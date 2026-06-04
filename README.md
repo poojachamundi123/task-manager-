@@ -17,29 +17,28 @@ Django
 SQLite
 
 --> Project Structure
-task_manager/
-│
-├── task_manager/
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
 
-├── task/
-│   ├── models.py
-│   ├── views.py
-│   ├── forms.py
-│   ├── urls.py
-│   └── admin.py
+- task_manager/
+settings.py
+urls.py
+wsgi.py
 
-├── templates/
-│   ├── dashboard.html
-│   ├── task_form.html
-│   └── trash.html
+- task/
+models.py
+views.py
+forms.py
+urls.py
+admin.py
 
-├── db.sqlite3
-├── manage.py
-├── requirements.txt
-└── README.md
+- templates/
+dashboard.html
+task_form.html
+trash.html
+
+db.sqlite3
+manage.py
+requirements.txt
+README.md
 
 --> Run the Project
 
